@@ -1,0 +1,123 @@
+/*
+Challenge:
+Change the site's background into a gradient that goes
+from blue at the top to pink at the bottom.
+*/
+
+@font-face {
+    font-family: fantasy;
+    src: url(IMMORTAL.ttf);
+}
+
+body {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient( #65c426,#5e9724 ) ;
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    border: 6px solid #ee1e1f;
+    margin-bottom: 10px;
+    object-fit: cover;
+
+}
+
+#bday-age, #bday-date{
+    background: #ee1e1f;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 40px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/images.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/happy.webp");
+    background-size:cover;
+}
+
+
+#gift-img-happy {
+    height:250px;
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/react.webp");
+
+}
+
+#gift-img-genius {
+    height:300px;
+}
+
+
+#gift-img-genius:hover {
+    background-image: url("images/fun.webp");
+    background-size: contain;
+}
+#gift-img-badass {
+    height:300px;
+}
+
+
+#gift-img-badass:hover {
+    background-image: url("images/badass.webp");
+    background-size: contain;
+
+}
+
+
+#gift-img-cheers:hover {
+    background-image: url("images/appreciate.gif");
+    background-size: cover;
+
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
